@@ -69,9 +69,7 @@ function draw() {
   if (arrowGroup.isTouching(redB)) {
     
     redB.destroyEach();
-    redB.destroy();
-    redB.Each();
-    ballon.destroyEach();
+   
     
     arrowGroup.destroyEach();
     score=score+1;
